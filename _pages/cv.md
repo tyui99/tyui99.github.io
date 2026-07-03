@@ -1,7 +1,7 @@
 ---
 permalink: /cv/
 title: "Curriculum Vitae"
-excerpt: "CV of Jingzhi Zhang"
+excerpt: "CV of Jiachi ZHANG"
 author_profile: false
 ---
 
@@ -14,7 +14,7 @@ author_profile: false
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
     border-radius: 8px;
     overflow: hidden;
-    border: 1px solid #e0e2e3;
+    border: 1px solid #d4d4d4;
   }
   .cv-page iframe {
     display: block;
@@ -31,40 +31,48 @@ author_profile: false
   .cv-btn {
     display: inline-block;
     padding: 0.7em 1.4em;
-    background: #2c3e50;
+    background: #0000FF;
     color: #fff !important;
     text-decoration: none !important;
-    border-radius: 6px;
+    border-radius: 4px;
     font-weight: 600;
     font-size: 0.95em;
     letter-spacing: 0.02em;
     transition: background 0.2s ease, transform 0.15s ease;
+    border: 1px solid #0000FF;
   }
   .cv-btn:hover {
-    background: #1a252f;
+    background: #0000cc;
     transform: translateY(-1px);
   }
   .cv-btn.secondary {
-    background: #7a8288;
+    background: #ffffff;
+    color: #0000FF !important;
   }
   .cv-btn.secondary:hover {
-    background: #5a6268;
+    background: #f0f0ff;
   }
   .cv-meta {
-    background: #f7f8f9;
-    border-left: 4px solid #2c3e50;
+    background: #fafafa;
+    border-left: 3px solid #0000FF;
     padding: 0.8em 1.2em;
     margin: 1.5em 0;
-    border-radius: 4px;
-    color: #4a5056;
+    border-radius: 2px;
+    color: #1a1a1a;
     font-size: 0.95em;
     line-height: 1.6;
   }
-  .cv-meta strong { color: #2c3e50; }
+  .cv-meta strong { color: #0000FF; }
+  .cv-section-title {
+    color: #0000FF;
+    border-bottom: 1px solid #0000FF;
+    padding-bottom: 0.3em;
+    margin-top: 2em;
+  }
 </style>
 
 <div class="cv-meta">
-  <strong>👤 Jingzhi Zhang</strong> · B.Eng. in Information Engineering, SCUT (2023–2027)<br>
+  <strong>👤 Jiachi ZHANG</strong> · B.Eng. in Information Engineering, SCUT (2023–2027)<br>
   <strong>🏛️ Visiting Research Intern</strong> at SIAT, CAS · Advised by Dr. Wenqi Fang & PhD candidate Zhuoyu Wu<br>
   <strong>🔬 Research:</strong> Ultra-lightweight medical image segmentation · Edge AI · Green AI
 </div>
@@ -84,7 +92,7 @@ author_profile: false
 <div class="cv-page">
   <iframe
     src="{{ '/files/Jiachi_ZHANG_CV.pdf' | relative_url }}#toolbar=1&navpanes=0&scrollbar=1&view=FitH"
-    title="Jingzhi Zhang - Curriculum Vitae"
+    title="Jiachi ZHANG - Curriculum Vitae"
     loading="lazy">
     <p>Your browser does not support embedded PDFs. Please <a href="{{ '/files/Jiachi_ZHANG_CV.pdf' | relative_url }}">download the PDF</a> to view it.</p>
   </iframe>
@@ -92,7 +100,7 @@ author_profile: false
 
 ## 📋 Quick Facts
 
-- **Name:** Jingzhi Zhang (张精志 / Jiachi ZHANG)
+- **Name:** Jiachi ZHANG
 - **Affiliation:** South China University of Technology (SCUT), B.Eng. Information Engineering, 2023–2027
 - **Current Position:** Visiting Research Intern, SIAT, CAS (since 2025.10)
 - **Advisors:** Dr. Wenqi Fang & PhD candidate Zhuoyu Wu
@@ -108,6 +116,6 @@ author_profile: false
 
 ---
 
-<p style="text-align:center; color:#7a8288; font-size:0.9em; margin-top:2em;">
+<p style="text-align:center; color:#0000FF; font-size:0.9em; margin-top:2em;">
   Last updated: July 2026 · Feel free to reach out for collaboration or academic discussion.
 </p>
