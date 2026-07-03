@@ -61,12 +61,56 @@ author_profile: false
     line-height: 1.6;
   }
   .cv-meta strong { color: #2c3e50; }
+
+  .cv-contact-icons {
+    margin: 1.2em 0 1.5em 0;
+    padding: 0.8em 1.2em;
+    background: #f7f8f9;
+    border-left: 4px solid #2c3e50;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.95em;
+    line-height: 1.8;
+  }
+  .cv-contact-icons a {
+    color: #2c3e50 !important;
+    text-decoration: none !important;
+    margin: 0 0.4em;
+    display: inline-block;
+    transition: color 0.2s ease;
+  }
+  .cv-contact-icons a:hover {
+    color: #1a56db !important;
+  }
+  .cv-contact-icons .cv-icon {
+    font-size: 1.15em;
+    margin-right: 0.25em;
+    vertical-align: middle;
+  }
+  .cv-contact-icons .cv-icon-label {
+    font-weight: 600;
+    color: #1a56db;
+  }
+  .cv-contact-icons .cv-icon-sep {
+    color: #aab1b6;
+    margin: 0 0.3em;
+  }
 </style>
 
 <div class="cv-meta">
-  <strong>👤 Jingzhi Zhang</strong> · B.Eng. in Information Engineering, SCUT (2023–2027)<br>
+  <strong>👤 Jingzhi Zhang (Jiachi Zhang)</strong> · B.Eng. in Information Engineering, SCUT (2023–2027)<br>
   <strong>🏛️ Visiting Research Intern</strong> at SIAT, CAS · Advised by Dr. Wenqi Fang & PhD candidate Zhuoyu Wu<br>
   <strong>🔬 Research:</strong> Ultra-lightweight medical image segmentation · Edge AI · Green AI
+</div>
+
+<div class="cv-contact-icons">
+  <a href="https://tyui99.github.io/"><span class="cv-icon">🏠</span> <span class="cv-icon-label">HomePage</span></a>
+  <span class="cv-icon-sep">|</span>
+  <a href="https://github.com/tyui99"><span class="cv-icon">🐙</span> <span class="cv-icon-label">GitHub</span></a>
+  <span class="cv-icon-sep">|</span>
+  <a href="mailto:jingzhizhang569@gmail.com"><span class="cv-icon">✉️</span> <span class="cv-icon-label">E-mail</span></a>
+  <span class="cv-icon-sep">|</span>
+  <a href="https://tyui99.github.io/"><span class="cv-icon">🖥️</span> <span class="cv-icon-label">Blog</span></a>
 </div>
 
 <div class="cv-actions">
