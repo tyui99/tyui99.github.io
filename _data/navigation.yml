@@ -11,3 +11,6 @@ main:
 
   - title: "Selected Research"
     url: "/#-selected-research"
+
+  - title: "CV"
+    url: "/cv/"
