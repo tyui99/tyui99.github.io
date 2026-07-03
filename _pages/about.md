@@ -20,14 +20,6 @@ I’m planning to apply for **PhD programs starting Fall 2027**, and always open
 
 ---
 
-# 🔥 News
-
-- *[2026.06]* &nbsp;🎉 Released **RIGS-Refiner** preprint on arXiv.
-- *[2026.05]* &nbsp;🎉 Released **Gain-Aware Controller** preprint on arXiv.
-- *[2025.10 – Present]* &nbsp;🏛️ Visiting Research Intern at **SIAT, CAS**, focusing on ultra-lightweight medical AI.
-
----
-
 # 🔬 Research Interests
 
 I strive to build **scalable, energy-efficient, and hardware-friendly AI systems**. My current work focuses on **Parameter-Efficient Architecture Design**, creating ultra-lightweight modules for resource-constrained scenarios. Looking ahead, my roadmap is clear:
@@ -40,46 +32,23 @@ I strive to build **scalable, energy-efficient, and hardware-friendly AI systems
 
 ---
 
-# 📝 Selected Research
+# 🔥 News
 
-## Preprints & Under Review
-
-- <span style="background-color: #003366; color: white; padding: 2px 6px; border-radius: 3px; font-size: 0.8em; font-weight: bold;">Submitted</span> <span style="background-color: #8B0000; color: white; padding: 2px 6px; border-radius: 3px; font-size: 0.8em; font-weight: bold;">189 params</span> <span style="background-color: #B8860B; color: white; padding: 2px 6px; border-radius: 3px; font-size: 0.8em; font-weight: bold;">🥇 First Author</span> [Gain-Aware Prediction-Space Recursive Controller](). A plug-and-play module for polyp segmentation that tracks discrepancy and uncertainty to refine logits, delivering consistent gains across seven backbones without architectural changes. **Submitted to _ICONIP 2026_.**
-
-- <span style="background-color: #003366; color: white; padding: 2px 6px; border-radius: 3px; font-size: 0.8em; font-weight: bold;">Submitted</span> <span style="background-color: #8B0000; color: white; padding: 2px 6px; border-radius: 3px; font-size: 0.8em; font-weight: bold;">519 params</span> <span style="background-color: #B8860B; color: white; padding: 2px 6px; border-radius: 3px; font-size: 0.8em; font-weight: bold;">🥇 First Author</span> [RIGS-Refiner: Risk-Guided Recursive Refinement](). A lightweight plugin introducing risk-guided selective repair for colonoscopy segmentation, outperforming heavier post-processing methods by leveraging prediction-space priors. **Submitted to _APSIPA ASC 2026_.**
-
-<br>
-
-<small>**Tags:** &nbsp; <span style="background-color: #003366; color: white; padding: 2px 6px; border-radius: 3px; font-size: 0.8em; font-weight: bold;">Venue</span> = Submission Venue &nbsp;|&nbsp; <span style="background-color: #8B0000; color: white; padding: 2px 6px; border-radius: 3px; font-size: 0.8em; font-weight: bold;">Params</span> = Module Size &nbsp;|&nbsp; <span style="background-color: #B8860B; color: white; padding: 2px 6px; border-radius: 3px; font-size: 0.8em; font-weight: bold;">First Author</span> = Lead Authorship</small>
+- **[2026.06]** &nbsp;📄 Released **RIGS-Refiner** on arXiv.
+- **[2026.05]** &nbsp;📄 Released **Gain-Aware Controller** on arXiv.
+- **[2025.10 – Present]** &nbsp;🏛️ Visiting Research Intern at **SIAT, CAS**, focusing on ultra-lightweight medical AI.
 
 ---
 
-# 🎖 Honors and Awards
+# 📝 Publications
 
-- *[Upcoming]* &nbsp;🏅 Targeting top-tier venues (**NeurIPS / CVPR / ICLR / MICCAI**) for upcoming work on efficient medical AI.
+### [Gain-Aware Prediction-Space Recursive Controller]()
 
----
+A plug-and-play 189-param module for polyp segmentation that tracks discrepancy and uncertainty to refine logits, delivering consistent gains across seven backbones without architectural changes. <span style="color:#8B0000;">**First author**</span> · Submitted to *ICONIP 2026*.
 
-# 📖 Educations
+### [RIGS-Refiner: Risk-Guided Recursive Refinement]()
 
-- *[2023.09 – 2027.06]*, **B.Eng. in Information Engineering**, South China University of Technology, Guangzhou, China.
-- *[2025.10 – Present]*, **Visiting Research Intern**, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.
-
----
-
-# 🛠️ Skills & Tools
-
-- **Programming:** Python, C/C++, MATLAB, LaTeX
-- **Deep Learning:** PyTorch, OpenMMLab
-- **Research Areas:** Medical Image Segmentation, Efficient Deep Learning, Model Compression
-
----
-
-# 🎭 Miscs
-
-- Serving as the **President of the Art Troupe at SCUT(EE)** — leading a passionate community of performers.
-- A devoted fan of **Khalil Fong (方大同)** and a proud (if only in the shower) vocalist.
-- A staunch supporter of **Stephen Curry**. I play basketball and table tennis regularly to keep my mind sharp.
+A 519-param plugin introducing risk-guided selective repair for colonoscopy segmentation, outperforming heavier post-processing methods by leveraging prediction-space priors. <span style="color:#8B0000;">**First author**</span> · Submitted to *APSIPA ASC 2026*.
 
 ---
 
@@ -87,4 +56,4 @@ I strive to build **scalable, energy-efficient, and hardware-friendly AI systems
 
 - **Email:** [jingzhizhang569@gmail.com](mailto:jingzhizhang569@gmail.com)
 - **GitHub:** [tyui99](https://github.com/tyui99)
-- **Location:** Shenzhen / Guangzhou, China
+- **Location:** Guangzhou, China

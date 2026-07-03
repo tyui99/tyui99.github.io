@@ -234,7 +234,18 @@
   }
 
   li {
-    white-space: nowrap;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  /* IE/Edge */
+
+    &::-webkit-scrollbar {
+      display: none;  /* Chrome/Safari/Webkit */
+    }
   }
 
   a {
