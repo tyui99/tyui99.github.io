@@ -40,7 +40,7 @@ I strive to build **scalable, energy-efficient, and hardware-friendly AI systems
 
 ---
 
-# 📝 Publications
+# 📝 Selected Research
 
 ### [Gain-Aware Prediction-Space Recursive Controller]()
 
@@ -49,6 +49,14 @@ A plug-and-play 189-param module for polyp segmentation that tracks discrepancy 
 ### [RIGS-Refiner: Risk-Guided Recursive Refinement]()
 
 A 519-param plugin introducing risk-guided selective repair for colonoscopy segmentation, outperforming heavier post-processing methods by leveraging prediction-space priors. <span style="color:#8B0000;">**First author**</span> · Submitted to *APSIPA ASC 2026*.
+
+---
+
+# 🎭 Miscs
+
+- Serving as the **President of the Art Troupe at SCUT(EE)** — leading a passionate community of performers.
+- A devoted fan of **Khalil Fong (方大同)** and a proud (if only in the shower) vocalist.
+- A staunch supporter of **Stephen Curry**. I play basketball and table tennis regularly to keep my mind sharp.
 
 ---
 

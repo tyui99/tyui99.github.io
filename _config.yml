@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jingzhi Zhang"
   avatar           : "images/photo.jpg"
-  bio              : "Ultra-lightweight Medical AI Researcher"
+  bio              : "Lightweight AI for Medical Imaging · Edge & Green Computing"
   location         : "Guangzhou, China"
   employer         : "SCUT"
   pubmed           :
