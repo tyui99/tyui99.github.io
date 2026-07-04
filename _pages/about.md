@@ -65,5 +65,5 @@ A 519-param plugin introducing risk-guided selective repair for colonoscopy segm
 - **Email:** [jingzhizhang569@gmail.com](mailto:jingzhizhang569@gmail.com)
 - **GitHub:** [tyui99](https://github.com/tyui99)
 - **Google Scholar:** [Jingzhi Zhang](https://scholar.google.com/citations?user=4BDSTP8AAAAJ&hl=en)
-- **CV:** [Download PDF](/cv/)
+- **CV:** [Download PDF](/files/Jiachi_ZHANG_CV.pdf)
 - **Location:** Guangzhou, China
