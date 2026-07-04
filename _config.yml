@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jiachi Zhang"
   avatar           : "images/photo.jpg"
-  bio              : "Lightweight & Efficient AI · Medical Imaging · Edge & On-device Systems · AI for Science · Green Computing"
+  bio              : "Working on lightweight AI for medical imaging, edge systems, AI for science, and green computing"
   location         : "Guangzhou, China"
   employer         : "SCUT"
   pubmed           :
