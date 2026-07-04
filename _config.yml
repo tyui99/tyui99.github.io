@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Jingzhi Zhang"
-description              : "Jingzhi Zhang's Personal Homepage"
+title                    : "Jiachi Zhang"
+description              : 
 repository               : "tyui99/tyui99.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Jingzhi Zhang"
+  name             : "Jiachi Zhang"
   avatar           : "images/photo.jpg"
   bio              : "Lightweight AI for Medical Imaging · Edge & Green Computing"
   location         : "Guangzhou, China"
