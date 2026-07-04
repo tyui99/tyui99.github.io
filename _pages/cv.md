@@ -117,9 +117,6 @@ author_profile: false
   <a class="cv-btn" href="{{ '/files/Jiachi_ZHANG_CV.pdf' | relative_url }}" target="_blank" rel="noopener">
     ⬇️ Download PDF
   </a>
-  <a class="cv-btn" href="{{ '/files/Jiachi_ZHANG_CV.docx' | relative_url }}" target="_blank" rel="noopener">
-    📝 Download DOCX
-  </a>
   <a class="cv-btn secondary" href="{{ '/files/Jiachi_ZHANG_CV.pdf' | relative_url }}" target="_blank" rel="noopener">
     🔗 Open in New Tab
   </a>
