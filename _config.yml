@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jiachi Zhang"
   avatar           : "images/photo.jpg"
-  bio              : "Efficient AI Across the Stack · Medical Imaging · Edge Systems · Green Computing"
+  bio              : "Lightweight & Efficient AI · Medical Imaging · Edge & On-device Systems · AI for Science · Green Computing"
   location         : "Guangzhou, China"
   employer         : "SCUT"
   pubmed           :
@@ -144,14 +144,12 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jekyll-redirect-from
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jemoji
 
 
