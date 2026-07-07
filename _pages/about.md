@@ -42,11 +42,11 @@ I strive to build **scalable, energy-efficient, and hardware-friendly AI systems
 
 # 📝 Selected Research
 
-### [Gain-Aware Prediction-Space Recursive Controller]()
+### [Lightweight Polyp Segmentation via a Gain-Aware Prediction-Space Recursive Controller](https://arxiv.org/abs/2607.03062)
 
 A plug-and-play 189-param module for polyp segmentation that tracks discrepancy and uncertainty to refine logits, delivering consistent gains across seven backbones without architectural changes. <span style="color:#8B0000;">**First author**</span> · Submitted to *ICONIP 2026*.
 
-### [RIGS-Refiner: Risk-Guided Recursive Refinement]()
+### [RIGS-Refiner: Risk-Guided Recursive Refinement in Prediction Space for Colonoscopy Polyp Segmentation](https://arxiv.org/abs/2607.03058)
 
 A 519-param plugin introducing risk-guided selective repair for colonoscopy segmentation, outperforming heavier post-processing methods by leveraging prediction-space priors. <span style="color:#8B0000;">**First author**</span> · Submitted to *APSIPA ASC 2026*.
 
