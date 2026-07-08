@@ -22,13 +22,13 @@ I’m planning to apply for **PhD programs starting Fall 2027**, and always open
 
 # 🔬 Research Interests
 
-I strive to build **scalable, energy-efficient, and hardware-friendly AI systems**. My current work focuses on **Parameter-Efficient Architecture Design**, creating ultra-lightweight modules for resource-constrained scenarios. Looking ahead, my roadmap is clear:
+I strive to build **scalable, energy-efficient, and hardware-friendly AI systems**. My current work focuses on **efficient model design and lightweight architectures** for resource-constrained scenarios. Looking ahead, my roadmap is clear:
 
-- **From Algorithms to Systems:** Transitioning from standalone model design to **Edge AI &amp; On-device Deployment**. I plan to investigate the synergy between sparse architectures and edge-cloud pipelines, aiming for low-latency, HW-aware solutions.
+- **From Algorithms to Systems:** Transitioning from standalone model design to **Edge AI and on-device deployment** — investigating efficient architectures that perform under real-world constraints.
 
-- **Beyond Medical Imaging:** While medical AI is my current anchor, I am driven to extend efficient AI principles to **AI for Science** and general **Signal Processing** tasks, tackling diverse data modalities with minimal computational footprints.
+- **Efficient Training and Adaptation:** Making AI faster and lighter across different settings and scales, with applications in medical AI and beyond.
 
-- **Green AI Commitment:** Dedicated to **Green AI**, I seek to reduce the energy consumption of deep learning models through architectural innovation and efficient inference strategies.
+- **Green AI:** Reducing the energy consumption of deep learning through architectural innovation and efficient inference strategies.
 
 ---
 
