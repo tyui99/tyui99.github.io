@@ -2,17 +2,22 @@
   const translations = [
     ['.nav a[href="#about"]','关于我'], ['.nav a[href="#interests"]','研究兴趣'], ['.nav a[href="#news"]','最新动态'], ['.nav a[href="#research"]','精选研究'], ['.nav a[href="#contact"]','联系方式'],
     ['.bio','高效人工智能 · 多模态理解'], ['.affiliation strong','华南理工大学'], ['.affiliation span','中国 · 广州'],
-    ['.profile-links a[href^="mailto:"]','电子邮箱'], ['.profile-links a[href*="xiaohongshu"]','小红书'], ['.profile-links a[href$=".pdf"]','个人简历'],
-    ['.subtitle','本科研究者 · 华南理工大学'],
+    ['.profile-links a[href^="mailto:"]','电子邮箱'], ['.profile-links a[href$=".pdf"]','个人简历'],
+    ['.brand','张伽弛'], ['.sidebar h1','张伽弛'], ['.intro-name','张伽弛'],
+    ['.subtitle','本科生 · 华南理工大学'],
+    ['#affiliations h2','所在机构'],
+    ['.institution:nth-child(1) h3','华南理工大学'], ['.institution:nth-child(1) p','本科生 · 信息工程'],
+    ['.institution:nth-child(2) h3','中国科学院深圳先进技术研究院'], ['.institution:nth-child(2) p','访问研究实习生'],
+    ['.institution:nth-child(3) h3','香港中文大学（深圳）'], ['.institution:nth-child(3) p','访问研究实习生'],
     ['#about h2','<span class="section-index">01</span> 关于我'],
-    ['#about p:nth-of-type(1)','我是一名<strong>华南理工大学（SCUT）信息工程</strong>专业本科生（2023–2027）。'],
-    ['#about p:nth-of-type(2)','我在<strong>中国科学院深圳先进技术研究院（SIAT, CAS）</strong>担任访问研究实习生，师从 <strong>Wenqi Fang 博士</strong>和<strong>博士生 Zhuoyu Wu</strong>，研究轻量化医学图像分割与高效预测细化。'],
-    ['#about p:nth-of-type(3)','我也在<strong>香港中文大学（深圳）Ming Li 教授课题组</strong>担任访问研究实习生，协助开展孤独症儿童多模态行为评估研究。'],
+    ['#about p:nth-of-type(1)','我目前就读于<strong>华南理工大学（SCUT）信息工程专业</strong>，本科在读（2023–2027）。'],
+    ['#about p:nth-of-type(2)','我目前在<strong>中国科学院深圳先进技术研究院（SIAT, CAS）</strong>担任访问研究实习生，在 <strong>Wenqi Fang 博士</strong>和<strong>博士生 Zhuoyu Wu</strong> 的指导下，研究轻量化医学图像分割与预测结果细化。'],
+    ['#about p:nth-of-type(3)','我也在<strong>香港中文大学（深圳）Ming Li 教授课题组</strong>担任访问研究实习生，参与孤独症儿童多模态行为评估相关研究。'],
     ['#about p:nth-of-type(4)','欢迎就研究、想法和潜在合作与我交流，也欢迎通过<a href="mailto:jingzhizhang569@gmail.com">电子邮件</a>联系我！'],
     ['#interests h2','<span class="section-index">02</span> 研究兴趣'],
-    ['#interests p:nth-of-type(1)','我希望构建能够持续理解世界、实时辅助人们的<strong>高效交互式人工智能系统</strong>。驱动我研究的核心问题是：<strong>在计算资源有限的条件下，人工智能系统如何保留并更新真正重要的信息？</strong>'],
-    ['#interests p:nth-of-type(2)','我此前的研究探索了医学图像分割中的轻量化架构与预测细化。在此基础上，我希望将高效人工智能拓展至<strong>流式多模态理解</strong>，探索系统如何长期维护有用的上下文、理解正在发生的交互，并在动态环境中作出恰当回应。'],
-    ['#interests p:nth-of-type(3)','长远来看，我希望开发能够从连续感官输入中学习、在日常生活中帮助人们的人工智能助手，尤其关注<strong>及时性、效率和得体的交互</strong>。'],
+    ['#interests p:nth-of-type(1)','我希望构建<strong>高效、可交互的人工智能系统</strong>，让它们能够持续理解周围环境，并及时为人们提供帮助。我关心的一个核心问题是：<strong>在计算资源有限的情况下，系统该如何保留和更新真正重要的信息？</strong>'],
+    ['#interests p:nth-of-type(2)','此前，我主要研究医学图像分割中的轻量化模型和预测细化方法。接下来，我希望把高效人工智能的思路拓展到<strong>流式多模态理解</strong>：探索系统如何在持续交互中维护有用的上下文、理解正在发生的事情，并在动态环境中作出合适的回应。'],
+    ['#interests p:nth-of-type(3)','长远来看，我希望开发能够持续感知环境、帮助人们处理日常事务的人工智能助手，并关注它们的<strong>响应时机、运行效率和交互方式</strong>。'],
     ['.research-topics span:nth-child(1)','高效人工智能'], ['.research-topics span:nth-child(2)','流式多模态理解'], ['.research-topics span:nth-child(3)','交互智能'],
     ['#news h2','<span class="section-index">03</span> 最新动态'],
     ['.news li:nth-child(1) span','加入<strong>香港中文大学（深圳）</strong>担任访问研究实习生，参与多模态行为评估研究。'],
@@ -30,23 +35,63 @@
     ['.paper:nth-child(1) .figure span','查看大图 ↗'], ['.paper:nth-child(2) .figure span','查看大图 ↗'],
     ['#miscs h2','<span class="section-index">05</span> 生活点滴'],
     ['.misc li:nth-child(1)','曾任<strong>华南理工大学（EE）艺术团团长</strong>，很享受与热爱表演的伙伴们相聚。'],
-    ['.misc li:nth-child(2)','我是<strong>方大同</strong>的忠实乐迷，也喜欢唱歌（虽然可能主要是在淋浴时）。'],
-    ['.misc li:nth-child(3)','我是<strong>斯蒂芬·库里</strong>的支持者，也经常打篮球和乒乓球。'],
+    ['.misc li:nth-child(2)','喜欢<strong>方大同</strong>的音乐，也喜欢唱歌（虽然大多是在洗澡的时候）。'],
+    ['.misc li:nth-child(3)','<strong>斯蒂芬·库里</strong>球迷，平时也喜欢打篮球和乒乓球。'],
     ['#contact h2','<span class="section-index">06</span> 联系我'], ['#contact p','欢迎就研究、想法或潜在合作与我交流。'],
-    ['.contacts a[href^="mailto:"]','电子邮箱'], ['.contacts a[href*="xiaohongshu"]','小红书 ↗'], ['.contacts a[href$=".pdf"]','下载简历 ↓'], ['.foot','© Jiachi Zhang · 中国广州']
+    ['.contacts a[href^="mailto:"]','电子邮箱'], ['.contacts a[href$=".pdf"]','下载简历 ↓'], ['.foot','© Jiachi Zhang · 中国广州']
   ];
+  const french = {
+    '.nav a[href="#about"]': 'À propos', '.nav a[href="#interests"]': 'Recherche', '.nav a[href="#news"]': 'Actualités', '.nav a[href="#research"]': 'Publications', '.nav a[href="#contact"]': 'Contact',
+    '.bio': 'IA efficace · compréhension multimodale', '.affiliation strong': 'South China University of Technology', '.affiliation span': 'Guangzhou, Chine',
+    '.profile-links a[href^="mailto:"]': 'E-mail', '.profile-links a[href$=".pdf"]': 'Curriculum vitæ',
+    '.subtitle': 'Étudiant-chercheur · South China University of Technology',
+    '#affiliations h2': 'Institutions',
+    '.institution:nth-child(1) h3': 'South China University of Technology', '.institution:nth-child(1) p': 'Licence · ingénierie de l’information',
+    '.institution:nth-child(2) h3': 'SIAT, Académie chinoise des sciences', '.institution:nth-child(2) p': 'Stagiaire de recherche invité',
+    '.institution:nth-child(3) h3': 'The Chinese University of Hong Kong, Shenzhen', '.institution:nth-child(3) p': 'Stagiaire de recherche invité',
+    '#about h2': '<span class="section-index">01</span> À propos',
+    '#about p:nth-of-type(1)': 'Je suis étudiant en licence d’ingénierie, spécialité <strong>ingénierie de l’information</strong>, à la <strong>South China University of Technology (SCUT)</strong> (2023–2027).',
+    '#about p:nth-of-type(2)': 'Je suis stagiaire de recherche invité au <strong>Shenzhen Institutes of Advanced Technology de l’Académie chinoise des sciences (SIAT, CAS)</strong>, sous la direction de <strong>Wenqi Fang</strong> et du doctorant <strong>Zhuoyu Wu</strong>. Mes travaux portent sur la segmentation légère d’images médicales et le raffinement efficace des prédictions.',
+    '#about p:nth-of-type(3)': 'Je suis également stagiaire de recherche invité dans le groupe du professeur <strong>Ming Li à la Chinese University of Hong Kong, Shenzhen</strong>, où je contribue à des recherches sur l’évaluation multimodale des comportements d’enfants autistes.',
+    '#about p:nth-of-type(4)': 'Je serais ravi d’échanger sur la recherche, des idées ou de futures collaborations. N’hésitez pas à me contacter par <a href="mailto:jingzhizhang569@gmail.com">e-mail</a> !',
+    '#interests h2': '<span class="section-index">02</span> Intérêts de recherche',
+    '#interests p:nth-of-type(1)': 'Je souhaite concevoir des <strong>systèmes d’IA interactifs et efficaces</strong> capables de comprendre le monde en continu et d’aider les personnes en temps réel. Une question guide mes recherches : <strong>comment un système d’IA peut-il conserver et actualiser les informations importantes avec des ressources de calcul limitées ?</strong>',
+    '#interests p:nth-of-type(2)': 'Mes travaux précédents portent sur les architectures légères et le raffinement des prédictions pour la segmentation d’images médicales. Je souhaite prolonger cette approche vers la <strong>compréhension multimodale en flux continu</strong> : comment maintenir un contexte utile, comprendre les interactions en cours et réagir de manière adaptée dans un environnement dynamique.',
+    '#interests p:nth-of-type(3)': 'À plus long terme, j’espère développer des assistants capables d’apprendre à partir de données sensorielles continues et d’aider les personnes au quotidien, en prêtant attention à la <strong>réactivité, à l’efficacité et à la qualité de l’interaction</strong>.',
+    '.research-topics span:nth-child(1)': 'IA efficace', '.research-topics span:nth-child(2)': 'Compréhension multimodale en continu', '.research-topics span:nth-child(3)': 'Intelligence interactive',
+    '#news h2': '<span class="section-index">03</span> Actualités',
+    '.news li:nth-child(1) span': 'Début d’un stage de recherche invité à <strong>CUHK-Shenzhen</strong> sur l’évaluation comportementale multimodale.',
+    '.news li:nth-child(2) span': '<strong>Gain-Aware Controller</strong> accepté à <strong>ICONIP 2026</strong>.',
+    '.news li:nth-child(3) span': '<strong>RIGS-Refiner</strong> accepté à <strong>APSIPA ASC 2026</strong> pour une <strong>présentation orale</strong>.',
+    '.news li:nth-child(4) span': 'Début d’un stage de recherche invité au <strong>SIAT, CAS</strong>, consacré à l’IA médicale ultra-légère.',
+    '#research h2': '<span class="section-index">04</span> Travaux sélectionnés',
+    '.paper:nth-child(1) h3 a': 'Segmentation légère des polypes par un contrôleur récursif sensible au gain dans l’espace des prédictions',
+    '.paper:nth-child(1) p': 'Un module prêt à l’emploi de 189 paramètres affine les prédictions de segmentation en suivant les écarts et l’incertitude. Il apporte des gains constants sur sept architectures sans modifier leur structure.',
+    '.paper:nth-child(1) .author': 'Premier auteur', '.paper:nth-child(1) .venue': 'ICONIP 2026 · Accepté',
+    '.paper:nth-child(2) h3 a': 'RIGS-Refiner : raffinement récursif guidé par le risque pour la segmentation des polypes en coloscopie',
+    '.paper:nth-child(2) p': 'Un module de 519 paramètres utilise les informations issues des prédictions pour effectuer une correction sélective guidée par le risque et surpasse des méthodes de post-traitement plus coûteuses.',
+    '.paper:nth-child(2) .author': 'Premier auteur', '.paper:nth-child(2) .venue': 'APSIPA ASC 2026 <b class="oral">ORAL</b>',
+    '.paper:nth-child(1) .paperlink': 'Article ↗', '.paper:nth-child(2) .paperlink': 'Article ↗', '.paper:nth-child(1) .figure span': 'Agrandir ↗', '.paper:nth-child(2) .figure span': 'Agrandir ↗',
+    '#miscs h2': '<span class="section-index">05</span> En dehors de la recherche',
+    '.misc li:nth-child(1)': 'Ancien <strong>président de la troupe artistique de SCUT (EE)</strong>, où j’ai aimé réunir des passionnés de spectacle.',
+    '.misc li:nth-child(2)': 'Grand amateur de la musique de <strong>Khalil Fong (方大同)</strong>, j’aime aussi chanter, surtout sous la douche.',
+    '.misc li:nth-child(3)': 'Supporter de <strong>Stephen Curry</strong>, je joue régulièrement au basket et au tennis de table.',
+    '#contact h2': '<span class="section-index">06</span> Me contacter', '#contact p': 'Je serais ravi d’échanger sur la recherche, des idées ou de futures collaborations.',
+    '.contacts a[href^="mailto:"]': 'E-mail', '.contacts a[href$=".pdf"]': 'Télécharger le CV ↓', '.foot': '© Jiachi Zhang · Guangzhou, Chine'
+  };
   const entries = translations.map(([selector, zh]) => {
     const element = document.querySelector(selector);
-    return element ? { element, en: element.innerHTML, zh } : null;
+    return element ? { element, en: element.innerHTML, zh, fr: french[selector] || element.innerHTML } : null;
   }).filter(Boolean);
   const buttons = [...document.querySelectorAll('[data-language]')];
   const setLanguage = language => {
-    const selected = language === 'zh' ? 'zh' : 'en';
+    const selected = ['en', 'zh', 'fr'].includes(language) ? language : 'en';
     entries.forEach(entry => { entry.element.innerHTML = entry[selected]; });
-    document.documentElement.lang = selected === 'zh' ? 'zh-CN' : 'en';
-    document.querySelector('.nav').setAttribute('aria-label', selected === 'zh' ? '主导航' : 'Main navigation');
-    document.querySelector('.modal').setAttribute('aria-label', selected === 'zh' ? '论文图片' : 'Research figure');
-    document.querySelector('.modal-close').setAttribute('aria-label', selected === 'zh' ? '关闭图片' : 'Close figure');
+    document.documentElement.lang = selected === 'zh' ? 'zh-CN' : selected;
+    document.title = selected === 'zh' ? '张伽弛 | 学术主页' : selected === 'fr' ? 'Jiachi Zhang | Page académique' : 'Jiachi Zhang | Academic Homepage';
+    document.querySelector('.nav').setAttribute('aria-label', selected === 'zh' ? '主导航' : selected === 'fr' ? 'Navigation principale' : 'Main navigation');
+    document.querySelector('.modal').setAttribute('aria-label', selected === 'zh' ? '论文图片' : selected === 'fr' ? 'Figure de recherche' : 'Research figure');
+    document.querySelector('.modal-close').setAttribute('aria-label', selected === 'zh' ? '关闭图片' : selected === 'fr' ? 'Fermer la figure' : 'Close figure');
     buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.language === selected)));
     try { localStorage.setItem('homepage-language', selected); } catch (_) {}
   };
