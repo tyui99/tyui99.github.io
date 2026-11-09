@@ -79,23 +79,147 @@
     '#contact h2': '<span class="section-index">06</span> Me contacter', '#contact p': 'Je serais ravi d’échanger sur la recherche, des idées ou de futures collaborations.',
     '.contacts a[href^="mailto:"]': 'E-mail', '.contacts a[href$=".pdf"]': 'Télécharger le CV ↓', '.foot': '© Jiachi Zhang · Guangzhou, Chine'
   };
+  const traditional = {
+  ".nav a[href=\"#about\"]": "關於我",
+  ".nav a[href=\"#interests\"]": "研究興趣",
+  ".nav a[href=\"#news\"]": "最新動態",
+  ".nav a[href=\"#research\"]": "精選研究",
+  ".nav a[href=\"#contact\"]": "聯繫方式",
+  ".bio": "高效人工智能 · 多模態理解",
+  ".affiliation strong": "華南理工大學",
+  ".affiliation span": "中國 · 廣州",
+  ".profile-links a[href^=\"mailto:\"]": "電子郵箱",
+  ".profile-links a[href$=\".pdf\"]": "個人簡歷",
+  ".brand": "張伽弛",
+  ".sidebar h1": "張伽弛",
+  ".intro-name": "張伽弛",
+  ".subtitle": "本科生 · 華南理工大學",
+  "#affiliations h2": "所在機構",
+  ".institution:nth-child(1) h3": "華南理工大學",
+  ".institution:nth-child(1) p": "本科生 · 信息工程",
+  ".institution:nth-child(2) h3": "中國科學院深圳先進技術研究院",
+  ".institution:nth-child(2) p": "訪問研究實習生",
+  ".institution:nth-child(3) h3": "香港中文大學（深圳）",
+  ".institution:nth-child(3) p": "訪問研究實習生",
+  "#about h2": "<span class=\"section-index\">01</span> 關於我",
+  "#about p:nth-of-type(1)": "我目前就讀於<strong>華南理工大學（SCUT）信息工程專業</strong>，本科在讀（2023–2027）。",
+  "#about p:nth-of-type(2)": "我目前在<strong>中國科學院深圳先進技術研究院（SIAT, CAS）</strong>擔任訪問研究實習生，在 <strong>Wenqi Fang 博士</strong>和<strong>博士生 Zhuoyu Wu</strong> 的指導下，研究輕量化醫學圖像分割與預測結果細化。",
+  "#about p:nth-of-type(3)": "我也在<strong>香港中文大學（深圳）Ming Li 教授課題組</strong>擔任訪問研究實習生，參與孤獨症兒童多模態行為評估相關研究。",
+  "#about p:nth-of-type(4)": "歡迎就研究、想法和潛在合作與我交流，也歡迎通過<a href=\"mailto:jingzhizhang569@gmail.com\">電子郵件</a>聯繫我！",
+  "#interests h2": "<span class=\"section-index\">02</span> 研究興趣",
+  "#interests p:nth-of-type(1)": "我希望構建<strong>高效、可交互的人工智能系統</strong>，讓它們能夠持續理解周圍環境，並及時為人們提供幫助。我關心的一個核心問題是：<strong>在計算資源有限的情況下，系統該如何保留和更新真正重要的信息？</strong>",
+  "#interests p:nth-of-type(2)": "此前，我主要研究醫學圖像分割中的輕量化模型和預測細化方法。接下來，我希望把高效人工智能的思路拓展到<strong>流式多模態理解</strong>：探索系統如何在持續交互中維護有用的上下文、理解正在發生的事情，並在動態環境中作出合適的回應。",
+  "#interests p:nth-of-type(3)": "長遠來看，我希望開發能夠持續感知環境、幫助人們處理日常事務的人工智能助手，並關注它們的<strong>響應時機、運行效率和交互方式</strong>。",
+  ".research-topics span:nth-child(1)": "高效人工智能",
+  ".research-topics span:nth-child(2)": "流式多模態理解",
+  ".research-topics span:nth-child(3)": "交互智能",
+  "#news h2": "<span class=\"section-index\">03</span> 最新動態",
+  ".news li:nth-child(1) span": "加入<strong>香港中文大學（深圳）</strong>擔任訪問研究實習生，參與多模態行為評估研究。",
+  ".news li:nth-child(2) span": "<strong>Gain-Aware Controller</strong> 被 <strong>ICONIP 2026</strong> 接收。",
+  ".news li:nth-child(3) span": "<strong>RIGS-Refiner</strong> 被 <strong>APSIPA ASC 2026</strong> 接收，並入選<strong>口頭報告</strong>。",
+  ".news li:nth-child(4) span": "加入<strong>中科院深圳先進院</strong>擔任訪問研究實習生，研究超輕量級醫學人工智能。",
+  "#research h2": "<span class=\"section-index\">04</span> 精選研究",
+  ".paper:nth-child(1) h3 a": "基於增益感知預測空間遞歸控制器的輕量化息肉分割",
+  ".paper:nth-child(1) p": "提出一個即插即用的 189 參數息肉分割模塊，通過跟蹤預測差異和不確定性細化分割結果，在不改變模型架構的情況下，於七種骨幹網絡上取得穩定提升。",
+  ".paper:nth-child(1) .author": "第一作者",
+  ".paper:nth-child(1) .venue": "ICONIP 2026 · 已接收",
+  ".paper:nth-child(2) h3 a": "RIGS-Refiner：用於結腸鏡息肉分割的風險引導預測空間遞歸細化",
+  ".paper:nth-child(2) p": "提出一個 519 參數的輕量插件，利用預測空間先驗進行風險引導的選擇性修復，在分割細化中優於計算開銷更高的後處理方法。",
+  ".paper:nth-child(2) .author": "第一作者",
+  ".paper:nth-child(2) .venue": "APSIPA ASC 2026 <b class=\"oral\">口頭報告</b>",
+  ".paper:nth-child(1) .paperlink": "論文 ↗",
+  ".paper:nth-child(2) .paperlink": "論文 ↗",
+  ".paper:nth-child(1) .figure span": "查看大圖 ↗",
+  ".paper:nth-child(2) .figure span": "查看大圖 ↗",
+  "#miscs h2": "<span class=\"section-index\">05</span> 生活點滴",
+  ".misc li:nth-child(1)": "曾任<strong>華南理工大學（EE）藝術團團長</strong>，很享受與熱愛表演的夥伴們相聚。",
+  ".misc li:nth-child(2)": "喜歡<strong>方大同</strong>的音樂，也喜歡唱歌（雖然大多是在洗澡的時候）。",
+  ".misc li:nth-child(3)": "<strong>斯蒂芬·庫里</strong>球迷，平時也喜歡打籃球和乒乓球。",
+  "#contact h2": "<span class=\"section-index\">06</span> 聯繫我",
+  "#contact p": "歡迎就研究、想法或潛在合作與我交流。",
+  ".contacts a[href^=\"mailto:\"]": "電子郵箱",
+  ".contacts a[href$=\".pdf\"]": "下載簡歷 ↓",
+  ".foot": "© Jiachi Zhang · 中國廣州"
+};
+  const spanish = {
+  ".nav a[href=\"#about\"]": "Sobre mí",
+  ".nav a[href=\"#interests\"]": "Investigación",
+  ".nav a[href=\"#news\"]": "Novedades",
+  ".nav a[href=\"#research\"]": "Publicaciones",
+  ".nav a[href=\"#contact\"]": "Contacto",
+  ".bio": "IA eficiente · comprensión multimodal",
+  ".affiliation strong": "South China University of Technology",
+  ".affiliation span": "Guangzhou, China",
+  ".profile-links a[href^=\"mailto:\"]": "Correo electrónico",
+  ".profile-links a[href$=\".pdf\"]": "Currículum",
+  ".subtitle": "Estudiante e investigador · South China University of Technology",
+  "#affiliations h2": "Instituciones",
+  ".institution:nth-child(1) h3": "South China University of Technology",
+  ".institution:nth-child(1) p": "Grado · Ingeniería de la Información",
+  ".institution:nth-child(2) h3": "SIAT, Academia China de Ciencias",
+  ".institution:nth-child(2) p": "Investigador visitante en prácticas",
+  ".institution:nth-child(3) h3": "The Chinese University of Hong Kong, Shenzhen",
+  ".institution:nth-child(3) p": "Investigador visitante en prácticas",
+  "#about h2": "<span class=\"section-index\">01</span> Sobre mí",
+  "#about p:nth-of-type(1)": "Estudio el grado en <strong>Ingeniería de la Información</strong> en la <strong>South China University of Technology (SCUT)</strong> (2023–2027).",
+  "#about p:nth-of-type(2)": "Soy investigador visitante en prácticas en los <strong>Institutos de Tecnología Avanzada de Shenzhen de la Academia China de Ciencias (SIAT, CAS)</strong>, bajo la dirección de <strong>Wenqi Fang</strong> y del doctorando <strong>Zhuoyu Wu</strong>. Trabajo en segmentación ligera de imágenes médicas y refinamiento eficiente de predicciones.",
+  "#about p:nth-of-type(3)": "También soy investigador visitante en prácticas en el grupo del profesor <strong>Ming Li en The Chinese University of Hong Kong, Shenzhen</strong>, donde participo en investigaciones sobre la evaluación multimodal del comportamiento de niños autistas.",
+  "#about p:nth-of-type(4)": "Me encantará conversar sobre investigación, ideas o posibles colaboraciones. Puedes escribirme por <a href=\"mailto:jingzhizhang569@gmail.com\">correo electrónico</a>.",
+  "#interests h2": "<span class=\"section-index\">02</span> Intereses de investigación",
+  "#interests p:nth-of-type(1)": "Me interesa desarrollar <strong>sistemas de IA eficientes e interactivos</strong> capaces de comprender el mundo de forma continua y ayudar a las personas en tiempo real. Una pregunta guía mi investigación: <strong>¿cómo puede un sistema de IA conservar y actualizar la información importante con recursos de cómputo limitados?</strong>",
+  "#interests p:nth-of-type(2)": "Mis trabajos anteriores exploran arquitecturas ligeras y el refinamiento de predicciones para la segmentación de imágenes médicas. Me interesa ampliar este enfoque a la <strong>comprensión multimodal en flujo continuo</strong>: cómo mantener un contexto útil, comprender las interacciones en curso y responder adecuadamente en entornos dinámicos.",
+  "#interests p:nth-of-type(3)": "A largo plazo, espero desarrollar asistentes que aprendan de datos sensoriales continuos y ayuden a las personas en su vida diaria, prestando atención a la <strong>oportunidad de respuesta, la eficiencia y una interacción cuidadosa</strong>.",
+  ".research-topics span:nth-child(1)": "IA eficiente",
+  ".research-topics span:nth-child(2)": "Comprensión multimodal continua",
+  ".research-topics span:nth-child(3)": "Inteligencia interactiva",
+  "#news h2": "<span class=\"section-index\">03</span> Novedades",
+  ".news li:nth-child(1) span": "Comencé una estancia de investigación en <strong>CUHK-Shenzhen</strong> sobre evaluación multimodal del comportamiento.",
+  ".news li:nth-child(2) span": "<strong>Gain-Aware Controller</strong> fue aceptado en <strong>ICONIP 2026</strong>.",
+  ".news li:nth-child(3) span": "<strong>RIGS-Refiner</strong> fue aceptado para una <strong>presentación oral</strong> en <strong>APSIPA ASC 2026</strong>.",
+  ".news li:nth-child(4) span": "Comencé una estancia de investigación en <strong>SIAT, CAS</strong>, centrada en IA médica ultraligera.",
+  "#research h2": "<span class=\"section-index\">04</span> Investigaciones destacadas",
+  ".paper:nth-child(1) h3 a": "Segmentación ligera de pólipos mediante un controlador recursivo sensible a la ganancia en el espacio de predicción",
+  ".paper:nth-child(1) p": "Un módulo acoplable de 189 parámetros refina las predicciones mediante el seguimiento de discrepancias e incertidumbre y logra mejoras constantes en siete arquitecturas sin modificarlas.",
+  ".paper:nth-child(1) .author": "Primer autor",
+  ".paper:nth-child(1) .venue": "ICONIP 2026 · Aceptado",
+  ".paper:nth-child(2) h3 a": "RIGS-Refiner: refinamiento recursivo guiado por riesgo para la segmentación de pólipos en colonoscopia",
+  ".paper:nth-child(2) p": "Un módulo de 519 parámetros utiliza información de las predicciones para realizar correcciones selectivas guiadas por riesgo y supera a métodos de posprocesamiento más costosos.",
+  ".paper:nth-child(2) .author": "Primer autor",
+  ".paper:nth-child(2) .venue": "APSIPA ASC 2026 <b class=\"oral\">ORAL</b>",
+  ".paper:nth-child(1) .paperlink": "Artículo ↗",
+  ".paper:nth-child(2) .paperlink": "Artículo ↗",
+  ".paper:nth-child(1) .figure span": "Ampliar figura ↗",
+  ".paper:nth-child(2) .figure span": "Ampliar figura ↗",
+  "#miscs h2": "<span class=\"section-index\">05</span> Fuera de la investigación",
+  ".misc li:nth-child(1)": "Fui <strong>presidente de la agrupación artística de SCUT (EE)</strong>, donde disfruté reuniendo a personas apasionadas por las artes escénicas.",
+  ".misc li:nth-child(2)": "Soy gran aficionado a la música de <strong>Khalil Fong (方大同)</strong> y también me gusta cantar, sobre todo en la ducha.",
+  ".misc li:nth-child(3)": "Soy seguidor de <strong>Stephen Curry</strong> y juego regularmente al baloncesto y al tenis de mesa.",
+  "#contact h2": "<span class=\"section-index\">06</span> Contacto",
+  "#contact p": "Me encantará conversar sobre investigación, ideas o posibles colaboraciones.",
+  ".contacts a[href^=\"mailto:\"]": "Correo electrónico",
+  ".contacts a[href$=\".pdf\"]": "Descargar CV ↓",
+  ".foot": "© Jiachi Zhang · Guangzhou, China"
+};
   const entries = translations.map(([selector, zh]) => {
     const element = document.querySelector(selector);
-    return element ? { element, en: element.innerHTML, zh, fr: french[selector] || element.innerHTML } : null;
+    return element ? { element, en: element.innerHTML, zh, "zh-Hant": traditional[selector] || zh, fr: french[selector] || element.innerHTML, es: spanish[selector] || element.innerHTML } : null;
   }).filter(Boolean);
-  const buttons = [...document.querySelectorAll('[data-language]')];
+  const languageSelect = document.querySelector('#language-select');
   const setLanguage = language => {
-    const selected = ['en', 'zh', 'fr'].includes(language) ? language : 'en';
+    const selected = ['en', 'zh', 'zh-Hant', 'fr', 'es'].includes(language) ? language : 'en';
     entries.forEach(entry => { entry.element.innerHTML = entry[selected]; });
-    document.documentElement.lang = selected === 'zh' ? 'zh-CN' : selected;
-    document.title = selected === 'zh' ? '张伽弛 | 学术主页' : selected === 'fr' ? 'Jiachi Zhang | Page académique' : 'Jiachi Zhang | Academic Homepage';
-    document.querySelector('.nav').setAttribute('aria-label', selected === 'zh' ? '主导航' : selected === 'fr' ? 'Navigation principale' : 'Main navigation');
-    document.querySelector('.modal').setAttribute('aria-label', selected === 'zh' ? '论文图片' : selected === 'fr' ? 'Figure de recherche' : 'Research figure');
-    document.querySelector('.modal-close').setAttribute('aria-label', selected === 'zh' ? '关闭图片' : selected === 'fr' ? 'Fermer la figure' : 'Close figure');
-    buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.language === selected)));
+    document.documentElement.lang = selected === 'zh' ? 'zh-CN' : selected === 'zh-Hant' ? 'zh-Hant' : selected;
+    const motto = document.querySelector('.hero-quote');
+    motto.innerHTML = selected === 'zh-Hant' ? '不忘其所始，<span>不求其所終。</span>' : '不忘其所始，<span>不求其所终。</span>';
+    motto.lang = selected === 'zh-Hant' ? 'zh-Hant' : 'zh-Hans';
+    document.title = selected === 'zh' ? '张伽弛 | 学术主页' : selected === 'zh-Hant' ? '張伽弛 | 學術主頁' : selected === 'fr' ? 'Jiachi Zhang | Page académique' : selected === 'es' ? 'Jiachi Zhang | Página académica' : 'Jiachi Zhang | Academic Homepage';
+    document.querySelector('.nav').setAttribute('aria-label', selected === 'zh' ? '主导航' : selected === 'zh-Hant' ? '主導覽' : selected === 'fr' ? 'Navigation principale' : selected === 'es' ? 'Navegación principal' : 'Main navigation');
+    document.querySelector('.modal').setAttribute('aria-label', selected === 'zh' ? '论文图片' : selected === 'zh-Hant' ? '論文圖片' : selected === 'fr' ? 'Figure de recherche' : selected === 'es' ? 'Figura de investigación' : 'Research figure');
+    document.querySelector('.modal-close').setAttribute('aria-label', selected === 'zh' ? '关闭图片' : selected === 'zh-Hant' ? '關閉圖片' : selected === 'fr' ? 'Fermer la figure' : selected === 'es' ? 'Cerrar figura' : 'Close figure');
+    languageSelect.value = selected;
     try { localStorage.setItem('homepage-language', selected); } catch (_) {}
   };
-  buttons.forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.language)));
+  languageSelect.addEventListener('change', () => setLanguage(languageSelect.value));
   let saved = 'en';
   try { saved = localStorage.getItem('homepage-language') || 'en'; } catch (_) {}
   setLanguage(saved);
